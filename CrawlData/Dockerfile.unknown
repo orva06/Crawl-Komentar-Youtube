@@ -1,0 +1,13 @@
+FROM python
+WORKDIR /app
+# Install modul pandas
+RUN pip install pandas
+
+# Install modul googleapiclient
+RUN pip install google-api-python-client
+
+# Install modul pymongo
+RUN pip install pymongo
+
+COPY . /app
+CMD ["python3", "tugasbigdata-update.py"]
