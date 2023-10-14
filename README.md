@@ -7,14 +7,14 @@
 |ORVALAMARVA                     | 1202204249|
 
 Alur penggunaan container NoSQL untuk crawl data / Alur pembuatan tugas 1 Big Data (??)
-1. Mengambil data menggunakan API dan mengoding (?) dengan bahasa pemograman python
+1. Mengambil data menggunakan API dan membuat program crawling dengan bahasa pemograman python
 2. Menghubungkan python ke MongoDB Atlas
 3. Menghubungkan MongoDB Atlas ke container MongoDB pada Docker
-4. Membuat image dan container dari file atau hasil crawl data yang didapat
+4. Membuat image dari container atau hasil crawl data yang telah dibuat
 ---
-Berikut merupakan step untuk crawl data komentar suatu video youtube:
+Berikut merupakan langkah-langkah untuk crawl data komentar suatu video youtube:
 
-### 1. Coding Menggunakan Python ###
+### 1. Membuat program crawling menggunakan Python ###
 - Mengimport library pandas dan  library pandas untuk memanipulasi data dan build dari library googleapiclient.discovery untuk membuat objek YouTube API
 - Membuat fungsi untuk mendapatkan komentar dan memproses setiap komentar. Informasi yang diambil termasuk tanggal publikasi, nama pengguna, isi komentar, dan jumlah like
 - Menjalankan crawl data dengan memanggil fungsi yang telah dibuat
