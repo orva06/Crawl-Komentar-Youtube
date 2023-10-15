@@ -79,7 +79,7 @@ build -t [nama-image] .
 ```
 docker run —-name [nama-container] [nama-image]
 ```
----
+
 ### 5. Menampilkan hasil crawl data menggunakan container yang telah dibuat ###
 - pada terminal, jalankan container yang telah dibuat
 ```
