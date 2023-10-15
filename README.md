@@ -34,7 +34,7 @@ Menghubungkan menggunakan URI yang telah disediakan di MongoDB Atlas dan membuat
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-uri ="mongodb+srv://orvalamarva:[password]@cluster0.smm9d1p.mongodb.net/?retryWrites=true&w=majority"
+uri ="mongodb+srv://orvalamarva:<password>@cluster0.smm9d1p.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(uri, server_api=ServerApi('1'))
 ```
 
