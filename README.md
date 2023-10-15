@@ -1,21 +1,23 @@
-## Crawling Komentar YouTube ke dalam NoSQL ##
+## Crawling Komentar YouTube ke dalam database NoSQL ##
 
 |NAMA                            | NIM       |
 |:---:|:---:|
-|ALVIN RENALDI NOVANZA           | 1202203346|
+|ALVIN RENALDY NOVANZA           | 1202203346|
 |MUHAMMAD RAYHAN KURNIAWAN       | 1202201259|
 |ORVALAMARVA                     | 1202204249|
 
-Alur penggunaan container NoSQL untuk crawl data / Alur pembuatan tugas 1 Big Data (??)
+Alur pembuatan Tugas 1 Big Data - Crawling Komentar YouTube ke dalam database NoSQL:
 1. Mengambil data menggunakan API dan membuat program crawling dengan bahasa pemograman python
-2. Menghubungkan python ke MongoDB Atlas
+2. Menambah command python agar dapat terhubung ke database MongoDB Atlas
 3. Menghubungkan MongoDB Atlas ke container MongoDB pada Docker
-4. Membuat image dari container atau hasil crawl data yang telah dibuat
----
-Berikut merupakan langkah-langkah untuk crawl data komentar suatu video youtube:
+4. Membuat image docker dari container atau hasil crawl data yang telah dibuat
+5. Menampilkan hasil crawling data pada database NoSQL
+
+Berikut merupakan langkah-langkah dari setiap alur diatas:
 
 ### 1. Membuat program crawling menggunakan Python ###
-- Mengimport library pandas dan  library pandas untuk memanipulasi data dan build dari library googleapiclient.discovery untuk membuat objek YouTube API
+***File python tersedia di repository ini**
+- Mengimport library pandas dan library googleapiclient untuk memanipulasi data dan build dari library googleapiclient.discovery untuk membuat objek YouTube API
 - Membuat fungsi untuk mendapatkan komentar dan memproses setiap komentar. Informasi yang diambil termasuk tanggal publikasi, nama pengguna, isi komentar, dan jumlah like
 - Menjalankan crawl data dengan memanggil fungsi yang telah dibuat
 - Mengubah menjadi data frame menggunakan pandas agar terlihat lebih rapih
@@ -37,36 +39,69 @@ client = MongoClient(uri, server_api=ServerApi('1'))
 ```
 
 ### 3. Connect MongoDB Atlas ke Mongo pada Docker ###
-- Buka CMD
+- Buka Command Prompt/Terminal
 - Jalankan container Mongo pada Docker
-- .....
+```
+docker start [nama-container]
+```
+- Masuk ke dalam container tersebut
+```
+docker exec -it [nama-container] bash
+```
+- Koneksikan server MongoDB Atlas pada terminal
 ```
 mongosh "mongodb+srv://cluster0.smm9d1p.mongodb.net/" --apiVersion 1 --username orvalamarva
 ```
 
 ### 4. Membuat image dan container dari hasil crawl ###
-- Membuat file bernama "Dockerfile"
-- Isi file tersebut dengan command untuk menginstall library yang dibutuhkan
-- Membuat image 
+- Membuat sebuah folder yang didalamnya terdapat file bernama "Dockerfile" dan file program python
+- Pada file "Dockerfile", isi file tersebut dengan beberapa command yang dibutuhkan
 ```
-build -t [nama image] .
+FROM python
+WORKDIR /app
+# Install modul pandas
+RUN pip install pandas
+
+# Install modul googleapiclient
+RUN pip install google-api-python-client
+
+# Install modul pymongo
+RUN pip install pymongo
+
+COPY . /app
+CMD ["python3", "tugasbigdata-update.py"]
+```
+- Jalankan terminal untuk membuat image
+```
+build -t [nama-image] .
 ```
 - Membuat dan menjalankan container dengan image yang dibuat sebelumnya
 ```
-docker run —name [nama] [nama image]
+docker run —-name [nama-container] [nama-image]
 ```
 ---
-### Menampilkan hasil crawl data menggunakan container yang telah dibuat ###
-Jalankan container yang telah dibuat
+### 5. Menampilkan hasil crawl data menggunakan container yang telah dibuat ###
+- pada terminal, jalankan container yang telah dibuat
 ```
-docker start [nama container]
+docker start [nama-container]
 ```
-Cek database
+- Lakukan perintah no. 3 diatas hingga dapat terkoneksi dengan MongoDB Atlas
+- Cek database yang ada
 ```
-show [nama collections]
+show dbs
 ```
-Tampilkan isi
+- Masuk kedalam sebuah database
 ```
-db.[nama collections].find()
+use [nama-database]
 ```
+- Cek collection yang terdapat pada sebuah database
+```
+show [nama-collections]
+```
+- Tampilkan isi dari collection tersebut
+```
+db.[nama-collection].find()
+```
+TARAA! Hasil crawl komentar youtube telah ditampilkan dengan menyertakan waktu publish, nama pengguna, isi komentar, dan jumlah like.
 
+Semoga tutorial ini bermanfaat bagi teman-teman pembaca, terima kasih. ^_^
