@@ -1,0 +1,378 @@
+[{
+  "_id": {
+    "$oid": "652a25a88aa0fc5dda2b2a7e"
+  },
+  "authorDisplayName": "Orvalamarva",
+  "publishedAt": "2023-10-14T04:38:34Z",
+  "textDisplay": "sangat bermanfaat kontennya, terima kasih",
+  "likeCount": 1
+},
+{
+  "_id": {
+    "$oid": "652a25a98aa0fc5dda2b2b4c"
+  },
+  "authorDisplayName": "Blue Sky",
+  "publishedAt": "2023-09-23T06:32:24Z",
+  "textDisplay": "Thank you buat tipsnya kak, boleh gak minta buatin video yang isinya ide2 buat portofolio data analyst? Atau 1-2 project portofolio tapi ada step2 pembahasannya. Makasih.",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25a98aa0fc5dda2b2c3b"
+  },
+  "authorDisplayName": "Perabotan Channel",
+  "publishedAt": "2023-09-05T08:38:06Z",
+  "textDisplay": "Minimal punya laptop seperti apa untuk belajar data analyst",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25a98aa0fc5dda2b2d47"
+  },
+  "authorDisplayName": "Andro Simanjuntak",
+  "publishedAt": "2023-09-05T03:25:01Z",
+  "textDisplay": "Semoga bermanfaat",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25a98aa0fc5dda2b2e5d"
+  },
+  "authorDisplayName": "Mr ARIVA",
+  "publishedAt": "2023-09-04T14:28:34Z",
+  "textDisplay": "Ak suka chanel abang ini...konten nya berisi",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25aa8aa0fc5dda2b2f96"
+  },
+  "authorDisplayName": "HASNAWI Nawi",
+  "publishedAt": "2023-08-27T01:04:20Z",
+  "textDisplay": "Terima kasih banyak,,, pak...!!",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25ab8aa0fc5dda2b3384"
+  },
+  "authorDisplayName": "igamako",
+  "publishedAt": "2023-08-18T16:47:09Z",
+  "textDisplay": "Lu pakai laptop type apa bang detailnya? Please jawab",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25ab8aa0fc5dda2b3459"
+  },
+  "authorDisplayName": "PsClip",
+  "publishedAt": "2023-08-13T09:08:20Z",
+  "textDisplay": "Gua takut kalau jobnya harus ad embel2 UI atau ITB sdngkan gua gk kuliah😢",
+  "likeCount": 1
+},
+{
+  "_id": {
+    "$oid": "652a25ab8aa0fc5dda2b35c9"
+  },
+  "authorDisplayName": "Dian Firmansyah",
+  "publishedAt": "2023-08-16T03:57:36Z",
+  "textDisplay": "Semangat kak, usaha tidak menghianati hasil, embel2 hanya formalitas, usaha dan kerja keras jadi yg utama",
+  "likeCount": 2
+},
+{
+  "_id": {
+    "$oid": "652a25ac8aa0fc5dda2b36a7"
+  },
+  "authorDisplayName": "eggcited",
+  "publishedAt": "2023-08-02T11:44:00Z",
+  "textDisplay": "Saya mau mulai belajar, bismillah",
+  "likeCount": 1
+},
+{
+  "_id": {
+    "$oid": "652a25ac8aa0fc5dda2b3776"
+  },
+  "authorDisplayName": "yohanes van bismarch pakpahan",
+  "publishedAt": "2023-07-26T16:01:02Z",
+  "textDisplay": "bantu buatin video cara ngambil data dari kaggle atau world bank",
+  "likeCount": 1
+},
+{
+  "_id": {
+    "$oid": "652a25ad8aa0fc5dda2b3942"
+  },
+  "authorDisplayName": "Joko Bagus",
+  "publishedAt": "2023-07-16T08:37:56Z",
+  "textDisplay": "Laptop ram berapa yg bagus untuk data analyst",
+  "likeCount": 1
+},
+{
+  "_id": {
+    "$oid": "652a25ad8aa0fc5dda2b3a3a"
+  },
+  "authorDisplayName": "Geifira Nur Fatimah",
+  "publishedAt": "2023-07-11T07:47:44Z",
+  "textDisplay": "Kak, tolong buatin playlist &quot;data analys dari 0&quot; dong.<br>Biar terstruktur belajarnya",
+  "likeCount": 16
+},
+{
+  "_id": {
+    "$oid": "652a25ad8aa0fc5dda2b3b7e"
+  },
+  "authorDisplayName": "syam nur",
+  "publishedAt": "2023-09-28T23:13:08Z",
+  "textDisplay": "ada kak di channel HaloTech Academy",
+  "likeCount": 1
+},
+{
+  "_id": {
+    "$oid": "652a25ae8aa0fc5dda2b3c88"
+  },
+  "authorDisplayName": "Nurul Fajri Ramadhani",
+  "publishedAt": "2023-07-07T07:01:53Z",
+  "textDisplay": "Pengen belajar, belum ada laptop. Rencana mau beli, baiknya spek seperti apa yang mendukung agar lancar saat mengolah data dengan aplikasinya?",
+  "likeCount": 4
+},
+{
+  "_id": {
+    "$oid": "652a25ae8aa0fc5dda2b3e09"
+  },
+  "authorDisplayName": "Darkom Lumayan",
+  "publishedAt": "2023-07-17T13:18:22Z",
+  "textDisplay": "Ambil yg minimal 4core 4threads dengan kecepatan minimum 3ghz sama ram min 8gb dan harus make ssd biar gak ngeleg pas buka aplikasi sama multitasking .kalo uang cukup lebih baik tapi beli yg 6-8 core dengan kecepatan 3ghz minimum",
+  "likeCount": 1
+},
+{
+  "_id": {
+    "$oid": "652a25af8aa0fc5dda2b3f23"
+  },
+  "authorDisplayName": "Siti Aisyah Dewi",
+  "publishedAt": "2023-07-06T07:13:38Z",
+  "textDisplay": "Bagi tips nya dong ka biar bisa",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25af8aa0fc5dda2b3fde"
+  },
+  "authorDisplayName": "Mugi Hari Mulyono",
+  "publishedAt": "2023-07-05T10:29:07Z",
+  "textDisplay": "semoga ilmu yang bro share menjadi amal jariyah yg bermanfaat semua orang",
+  "likeCount": 4
+},
+{
+  "_id": {
+    "$oid": "652a25af8aa0fc5dda2b40fd"
+  },
+  "authorDisplayName": "Aji miftaqur Royan",
+  "publishedAt": "2023-07-03T18:58:18Z",
+  "textDisplay": "Mas bantu referensi  buku apa yang cocok untuk di pelajari untuk pemula",
+  "likeCount": 3
+},
+{
+  "_id": {
+    "$oid": "652a25b08aa0fc5dda2b4196"
+  },
+  "authorDisplayName": "firefliesfields",
+  "publishedAt": "2023-06-18T11:09:32Z",
+  "textDisplay": "abis itu bikin tips interview data analis dong bang! seputar pertanyaan, praktek dan apa aja yang di persiapkan! i enjoy your content sm!",
+  "likeCount": 5
+},
+{
+  "_id": {
+    "$oid": "652a25b08aa0fc5dda2b4277"
+  },
+  "authorDisplayName": "Rahmat Hendra",
+  "publishedAt": "2023-06-12T12:39:50Z",
+  "textDisplay": "tolong buat playlist &quot;data analisis bagi pemula&quot; bang sason, biar para pemula bisa belajar secara struktur ehehe",
+  "likeCount": 34
+},
+{
+  "_id": {
+    "$oid": "652a25b08aa0fc5dda2b432d"
+  },
+  "authorDisplayName": "xousia",
+  "publishedAt": "2023-10-11T09:24:39Z",
+  "textDisplay": "Up",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25b18aa0fc5dda2b4490"
+  },
+  "authorDisplayName": "An nisaa' Rahmadany",
+  "publishedAt": "2023-10-02T04:45:35Z",
+  "textDisplay": "up",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25b18aa0fc5dda2b4549"
+  },
+  "authorDisplayName": "Rahmat",
+  "publishedAt": "2023-09-28T09:45:32Z",
+  "textDisplay": "Up",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25b18aa0fc5dda2b45f9"
+  },
+  "authorDisplayName": "Ibrahim Abdullah",
+  "publishedAt": "2023-09-24T11:09:25Z",
+  "textDisplay": "Up",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25b18aa0fc5dda2b46df"
+  },
+  "authorDisplayName": "Rizky Kybo",
+  "publishedAt": "2023-09-09T10:01:52Z",
+  "textDisplay": "Up",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25b28aa0fc5dda2b476d"
+  },
+  "authorDisplayName": "Krisna Aprileo",
+  "publishedAt": "2023-06-11T03:23:13Z",
+  "textDisplay": "Mas Sasonoto Makasih bangett.. Saya sebagai mahasiswa Akuntansi yang takut akan pekerjaan digantikan AI tercerahkan kembali..",
+  "likeCount": 9
+},
+{
+  "_id": {
+    "$oid": "652a25b28aa0fc5dda2b4848"
+  },
+  "authorDisplayName": "Sufjan Smith",
+  "publishedAt": "2023-09-01T10:22:27Z",
+  "textDisplay": "Akuntansi gak akan tergantikan.. tenang aja. Apalagi di Indonesia.",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25b38aa0fc5dda2b4a93"
+  },
+  "authorDisplayName": "Andita Rizki",
+  "publishedAt": "2023-06-09T05:47:37Z",
+  "textDisplay": "thanks bang",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25b38aa0fc5dda2b4b22"
+  },
+  "authorDisplayName": "Redho Irnindo",
+  "publishedAt": "2023-06-08T11:45:16Z",
+  "textDisplay": "buatin tutor dari awal bang",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25b38aa0fc5dda2b4be0"
+  },
+  "authorDisplayName": "Panic",
+  "publishedAt": "2023-06-08T06:57:32Z",
+  "textDisplay": "tips dapet kerja sebagai data analis bang",
+  "likeCount": 2
+},
+{
+  "_id": {
+    "$oid": "652a25b38aa0fc5dda2b4cc9"
+  },
+  "authorDisplayName": "Rahmat Amaknya",
+  "publishedAt": "2023-06-08T06:06:00Z",
+  "textDisplay": "Konten gini nih yang dicari cari",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25b48aa0fc5dda2b4dbb"
+  },
+  "authorDisplayName": "Ahmad Frizar Baharrizky",
+  "publishedAt": "2023-06-08T05:34:09Z",
+  "textDisplay": "Thanks for sharing mas, keep it up!",
+  "likeCount": 1
+},
+{
+  "_id": {
+    "$oid": "652a25b48aa0fc5dda2b4e69"
+  },
+  "authorDisplayName": "John Kempes",
+  "publishedAt": "2023-06-08T05:29:42Z",
+  "textDisplay": "Bg mau nanya, Apakah Data Analyst lebih populer dari Data Engineer? Nuhun",
+  "likeCount": 1
+},
+{
+  "_id": {
+    "$oid": "652a25b48aa0fc5dda2b4f22"
+  },
+  "authorDisplayName": "Yudha Prawira",
+  "publishedAt": "2023-07-20T02:44:57Z",
+  "textDisplay": "@Kevin betul ini. kata channel mas nya data analyst adalah tipe pekerjaan entry level di bidang data, nanti klo udah terbiasa bisa langsung belajar machine learning, dkk",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25b48aa0fc5dda2b502d"
+  },
+  "authorDisplayName": "Kevin",
+  "publishedAt": "2023-07-05T16:29:01Z",
+  "textDisplay": "Mending belajar data science, karna kalau sdh menguasai data science otomatis bisa jadi data analyst maupun data engineer",
+  "likeCount": 1
+},
+{
+  "_id": {
+    "$oid": "652a25b58aa0fc5dda2b5195"
+  },
+  "authorDisplayName": "malja a.",
+  "publishedAt": "2023-06-10T07:07:11Z",
+  "textDisplay": "Nah ini. Perlu jawaban juga ttg ini. 👏",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a25b58aa0fc5dda2b5259"
+  },
+  "authorDisplayName": "Arif IO",
+  "publishedAt": "2023-06-08T04:30:04Z",
+  "textDisplay": "Thx for sharing bang. btw link untuk IBM data analytics nya kurang &quot;https:&quot;, jadi ga bisa langsung di klik.",
+  "likeCount": 2
+},
+{
+  "_id": {
+    "$oid": "652a25b58aa0fc5dda2b5345"
+  },
+  "authorDisplayName": "Sasonoto Hasbullah",
+  "publishedAt": "2023-06-08T04:49:34Z",
+  "textDisplay": "Siap, terima kasih info nya",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a28398aa0fc5dda336386"
+  },
+  "authorDisplayName": "Sukarti Yulie",
+  "publishedAt": "2023-10-14T05:28:46Z",
+  "textDisplay": "Terima kasih kak 123",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a28b98aa0fc5dda34f67b"
+  },
+  "authorDisplayName": "Sukarti Yulie",
+  "publishedAt": "2023-10-14T05:35:42Z",
+  "textDisplay": "Terima kasih kak, 123",
+  "likeCount": 0
+},
+{
+  "_id": {
+    "$oid": "652a2a4b8aa0fc5dda39e84a"
+  },
+  "authorDisplayName": "Sukarti Yulie",
+  "publishedAt": "2023-10-14T05:41:44Z",
+  "textDisplay": "321",
+  "likeCount": 0
+}]
